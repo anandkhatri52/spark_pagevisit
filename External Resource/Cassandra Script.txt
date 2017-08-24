@@ -1,0 +1,6 @@
+
+Script for Cassandra
+---------------------------------------
+CREATE KEYSPACE mobgateks WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+CREATE TABLE pv_spark ( ipaddress text, count bigint, PRIMARY KEY(ipaddress));
+
